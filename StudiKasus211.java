@@ -7,7 +7,6 @@ public class StudiKasus211 {
         String nama, jenis;
         int jumlahDokumen, peringkat, kurang;
 
-        // Input data umum
         System.out.print("Nama mahasiswa  : ");
         nama = sc.nextLine();
         System.out.print("Jenis kegiatan (BELMAWA/BAKORMA/MANDIRI/PKM/LAINNYA) : ");
@@ -17,14 +16,11 @@ public class StudiKasus211 {
 
         kurang = 4 - jumlahDokumen;
 
-        // Tingkat 1: apakah termasuk lomba?
         if (jenis.equals("BELMAWA") || jenis.equals("BAKORMA") || jenis.equals("MANDIRI")) {
             System.out.print("Peringkat juara : ");
             peringkat = sc.nextInt();
 
-            // Tingkat 2: apakah Juara 1, 2, atau 3?
             if (peringkat >= 1 && peringkat <= 3) {
-                // Tingkat 3: apakah dokumen lengkap?
                 if (jumlahDokumen >= 4) {
                     System.out.println("Status : Berhak memperoleh dana penghargaan (Juara " + peringkat + ", dokumen lengkap).");
                 } else {
@@ -34,6 +30,5 @@ public class StudiKasus211 {
                 System.out.println("Status : Tidak memperoleh dana penghargaan (hanya untuk Juara 1/2/3).");
             }
         }
-        // Cabang PKM dan Lainnya akan ditambahkan di langkah berikutnya
     }
 }
