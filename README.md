@@ -2,7 +2,7 @@ Nama: Christino Novan Kurniawan
 NIM: 264107060018
 Kelas: SIB-1B
 
-Hasil Uji Studi Kasus 2 oleh <Dandi>
+Hasil Uji Studi Kasus 2 oleh Dandi
 | No | Jenis | Dokumen | Juara/Dana | Output  | Sesuai? |
 |----|-------|---------|------------|---------|---------|
 | 1  |BELMAWA|   4     | 1          | Berhak  | Ya      |
