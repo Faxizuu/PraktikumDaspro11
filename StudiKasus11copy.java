@@ -4,7 +4,7 @@ public class StudiKasus11copy {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int hargaPerCup = 18000;
+        int hargaperCup = 18000;
         int jumlahCup, uangBayar, totalHarga, diskon, totalBayar, kembalian, kurang;
         
         System.out.print("Masukkan jumlah cup yang ingin dibeli: ");
